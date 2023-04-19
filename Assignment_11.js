@@ -1,7 +1,8 @@
+const prompt = require('prompt-sync')();
 function multiplicationTable(num) {
-  for (let i = 1; i <= 10; i++) {
-    const product = num * i;
-    console.log(`${num} x ${i} = ${product}`);
+  for (let iteration = 1; iteration <= 10; iteration++) {
+    const product = num * iteration;
+    console.log(`${num} x ${iteration} = ${product}`);
   }
 }
 
